@@ -19,8 +19,8 @@ Para trabajar con cadenas de caracteres también tenemos una serie de funciones 
 		Definir num como Entero;
 		cad1<-"informática";
 		Escribir "La longitud de cad1 es ",longitud(cad1);
-		Escribir "El primer carácter de cad1 es ", subcadena(cad1,0,0);
-		Escribir "El último carácter de cad1 es ", subcadena(cad1,longitud(cad1)-1,longitud(cad1)-1);
+		Escribir "El primer carácter de cad1 es ", subcadena(cad1,1,1);
+		Escribir "El último carácter de cad1 es ", subcadena(cad1,longitud(cad1),longitud(cad1));
 		Escribir "La cad1 en mayúsculas es ",mayusculas(cad1);
 		cad2<-concatenar(cad1," es muy interesante");
 		Escribir cad2;
